@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pedro Davi</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+        <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+        <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="fontdev.css">
+        <link rel="icon" href="dev.svg" sizes="any" type="image/svg+xml">
+        <script data-ad-client="ca-pub-3029988818557108" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <noscript>
+          <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+          </style>
+        </noscript>
+      </head>
+
+<body id="top">
+
+    <header>
+        <div class="profile-page sidebar-collapse">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+            <div class="container">
+              <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Pedro Davi</a>
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+              </div>
+              <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html">Home</a></li>         
+                  <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://tools.pedrodavi.com.br/qrcodewifi.html" target="_blank">QRCode Wifi</a>
+                      <a class="dropdown-item" href="https://tools.pedrodavi.com.br/qrcodegen.html" target="_blank">QRCode Gen</a>
+                      <a class="dropdown-item" href="pdf2doc.html">PDF2Doc</a>
+                      <a class="dropdown-item" href="speednet.html">SpeedNet Test</a>
+                      <a class="dropdown-item" href="https://tools.pedrodavi.com.br/genpass.html" target="_blank">Gen Password</a>
+                      <a class="dropdown-item" href="https://sec.pedrodavi.com.br/cifravi.html" target="_blank">Crypt Message</a>
+                      <a class="dropdown-item" href="https://anrea.herokuapp.com/" target="_blank">Anrea GH Pages</a>
+                      <a class="dropdown-item" href="https://lnkshort.herokuapp.com/" target="_blank">Link Short</a>
+                      <a class="dropdown-item" href="https://dlci.idevoc.com.br/" target="_blank">API DLCI</a>
+                      <a class="dropdown-item" href="https://apidate.herokuapp.com/swagger-ui.html" target="_blank">API Check Date</a>
+                      <a class="dropdown-item" href="https://blog.idevoc.com.br/" target="_blank">Blog Idevoc</a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a class="nav-link smooth-scroll" href="https://blog.pedrodavi.com.br/" target="_blank">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link smooth-scroll" href="https://sec.pedrodavi.com.br/" target="_blank">Security</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-tech.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+
+          <div id="name-tool" class="h2 title">PDF 2 DOC</div>
+          
+          <p id="desc" class="category text-white">Convert PDF to DOC</p>
+
+          <div id="btnDown" class="text-center"></div>
+          <div id="name-doc" class="docName text-center mt-20"></div>
+          <!-- conteúdo -->
+          <div>    
+              <div id="load"></div>
+              <div id="pdf-text" class="text-justify">
+                  <div id="loading-info" class="text-center">
+                      <input name="pdf" class="form-control" type="file" onchange="PDFtoTEXT()">
+                  </div>
+                  <div id="output" class="text-justify" style="display:none"></div>
+              </div>  
+          </div>
+
+
+          <div class="title">
+            <a class="smooth-scroll mr-2 font-icon" target="_blank" href="https://www.linkedin.com/in/pdrodavi/" title="Linkedin">
+              <i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span>
+            </a>
+  
+            <a class="smooth-scroll mr-2 font-icon" target="_blank" href="https://git.pedrodavi.com.br/" title="Github">
+              <i class="fab fa-github"></i><span class="menu-title sr-only">Github</span>
+            </a>
+  
+            <a class="smooth-scroll mr-2 font-icon" target="_blank" href="https://gitlab.com/pedrodavi/" title="Gitlab">
+              <i class="fab fa-gitlab"></i><span class="menu-title sr-only">Gitlab</span>
+            </a>
+  
+            <a class="smooth-scroll mr-2 font-icon" target="_blank" href="https://fb.com/pedrodavipb/" title="Facebook">
+              <i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span>
+            </a>
+  
+            <a class="smooth-scroll mr-2 font-icon" target="_blank" href="https://instagram.com/pdrodavi" title="Instagram">
+              <i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span>
+            </a>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <div class="cc-contact-information" style="background-image: url('images/map.png')">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-body">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSe8KZbPvvzKMFC4wKaUCgiouKl21R2ToeGOVx8ilftQ2ab0hg/formResponse" target="_self" id="bootstrapForm" method="POST">
+                      <div class="p pb-3 text-center"><strong>Feel free to contact me</strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input id="713970278" class="form-control" type="text" name="entry.713970278" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input id="375443528" class="form-control" type="text" name="entry.375443528" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input id="6478016" class="form-control" type="email" name="entry.6478016" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea id="662405620" class="form-control" name="entry.662405620" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+
+                      <input type="hidden" name="fvv" value="1">
+                      <input type="hidden" name="fbzx" value="8487998153235338685">
+                      <input type="hidden" name="pageHistory" value="0">
+
+                      <div class="row">
+                        <div class="col text-center">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+
+    <footer class="footer">
+      <!--<div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>-->
+      <div class="h4 title text-center">Pedro Davi</div>
+      <div class="text-center text-muted">
+        <p>&copy; Pedro Davi. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+<script src="js/common/pdf.js"></script>
+<script src="js/common/headerdoc.js"></script>
+<script src="js/common/footerdoc.js"></script>
+
+<script>
+
+	function PDFtoTEXT(){
+
+		var file = document.querySelector('input[type=file]').files[0];
+		var reader  = new FileReader();
+									
+		if (file) {
+			reader.readAsDataURL(file);
+			url = URL.createObjectURL(file)
+		} else {
+			alert('Não possui arquivo!');
+		}
+		
+		var PDF_PATH = url;
+		pdfjsLib.workerSrc = 'js/common/pdf.worker.js';
+		
+		$("#loading-info").remove(); 
+		$("#desc").remove(); 
+		var load = '<div class="loader"></div>'
+		$("#load").append(load);
+		
+		pdfjsLib.getDocument(PDF_PATH).then(function(pdf) {
+			var pdfDocument = pdf;
+			var pagesPromises = [];
+		
+			for (var i = 0; i < pdf.numPages; i++) {
+				(function(pageNumber){
+					pagesPromises.push(getPageText(pageNumber, pdfDocument));
+				})(i + 1)
+			}
+		
+			Promise.all(pagesPromises).then(function(pagesText){
+				for (var i=0; i < pagesText.length; i++) {
+					$("#output").append("<p>"+pagesText[i]+"</p><br>")  
+				} 
+		
+				$("#load").remove();
+				nameOrigin = file.name;
+				var buscaExtPDF = eval('/' + '.pdf' + '/g');
+				var filename = nameOrigin.replace(buscaExtPDF, '.doc');
+																
+				$("#name-doc").append("<p style='color: #fff'><b>"+ filename +"</b></p><br>")
+				var alert = '<p class="lead" style="color: #fff">Arquivo convertido com sucesso ! &nbsp; <a class="smooth-scroll" href="#" onclick="save2Doc();"><i class="fas fa-arrow-circle-down"></i></a></p><br>';
+				$("#btnDown").append(alert); 
+		
+			});
+		
+		}, function(reason){
+				console.error(reason);
+			});			
+	}
+		
+
+	function getPageText(pageNum, PDFDocumentInstance) {      
+		return new Promise(function(resolve, reject) {
+			PDFDocumentInstance.getPage(pageNum).then(function(pdfPage) {
+				pdfPage.getTextContent().then(function(textContent) {
+					var textItems = textContent.items;
+					var finalString = "";
+					for (var i = 0; i < textItems.length; i++) {
+						var item = textItems[i]; 
+						finalString += item.str + " "; 
+					}resolve(finalString);
+				}); 
+			}); 
+		});
+	}
+
+  function save2Doc(){
+		if ($(".docName").text() == '') {
+			alert("Carregue um PDF primeiro!")
+		} else {
+			var nameOrigin = $(".docName").text();
+			var buscaExtPDF = eval('/' + '.doc' + '/g');
+			var filename = nameOrigin.replace(buscaExtPDF, '');				
+			var sourceHTML = baseHeader() + document.getElementById("output").innerHTML + baseFooter();
+		
+			var blob = new Blob(['\ufeff', sourceHTML], {
+					type: 'application/msword'
+			});
+												
+			// Specify link url
+			var url = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(sourceHTML);  
+			// Specify file name
+			filename = filename?filename+'.doc':'document.doc';
+			// Create download link element
+			var downloadLink = document.createElement("a");
+		
+			document.body.appendChild(downloadLink);
+												
+			if(navigator.msSaveOrOpenBlob ){
+				navigator.msSaveOrOpenBlob(blob, filename);
+			}else{
+				// Create a link to the file
+				downloadLink.href = url;
+				// Setting the file name
+				downloadLink.download = filename;
+				//triggering the function
+				downloadLink.click();
+			}
+			document.body.removeChild(downloadLink);
+		}  
+	}
+	
+</script>
+
+<!-- SCRIPTS -->
+<script src="js/plugin-frameworks/jquery-3.2.1.min.js"></script>
+<script src="js/plugin-frameworks/tether.min.js"></script>
+<script src="js/plugin-frameworks/bootstrap.js"></script>
+<script src="js/common/scripts.js"></script>
+
+<script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+<script src="js/core/popper.min.js?ver=1.1.0"></script>
+<script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+<script src="js/now-ui-kit.js?ver=1.1.0"></script>
+<script src="js/aos.js?ver=1.1.0"></script>
+<script src="scripts/main.js?ver=1.1.0"></script>
+
+</body>
+</html>

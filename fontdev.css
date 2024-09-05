@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'fontdev';
+  src:  url('fonts/fontdev.eot?n5mjs1');
+  src:  url('fonts/fontdev.eot?n5mjs1#iefix') format('embedded-opentype'),
+    url('fonts/fontdev.ttf?n5mjs1') format('truetype'),
+    url('fonts/fontdev.woff?n5mjs1') format('woff'),
+    url('fonts/fontdev.svg?n5mjs1#fontdev') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icondev {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontdev' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-intellijidea:before {
+  content: "\e93e";
+}
+.icon-apachemaven:before {
+  content: "\e93d";
+}
+.icon-adobephotoshop:before {
+  content: "\e937";
+}
+.icon-apachetomcat:before {
+  content: "\e938";
+}
+.icon-adobeillustrator:before {
+  content: "\e939";
+}
+.icon-graphql:before {
+  content: "\e93a";
+}
+.icon-apachenetbeanside:before {
+  content: "\e93b";
+}
+.icon-visualstudiocode:before {
+  content: "\e93c";
+}
+.icon-express:before {
+  content: "\e936";
+}
+.icon-linuxcontainers:before {
+  content: "\e900";
+}
+.icon-windowsterminal:before {
+  content: "\e901";
+}
+.icon-hibernate:before {
+  content: "\e902";
+}
+.icon-vmware:before {
+  content: "\e903";
+}
+.icon-heroku:before {
+  content: "\e904";
+}
+.icon-adonisjs:before {
+  content: "\e905";
+}
+.icon-eclipseide:before {
+  content: "\e906";
+}
+.icon-opencv:before {
+  content: "\e907";
+}
+.icon-insomnia:before {
+  content: "\e908";
+}
+.icon-postgresql:before {
+  content: "\e909";
+}
+.icon-kubernetes:before {
+  content: "\e90a";
+}
+.icon-powershell:before {
+  content: "\e90b";
+}
+.icon-googleads:before {
+  content: "\e90c";
+}
+.icon-googlecloud:before {
+  content: "\e90d";
+}
+.icon-googlesearchconsole:before {
+  content: "\e90e";
+}
+.icon-typescript:before {
+  content: "\e90f";
+}
+.icon-virtualbox:before {
+  content: "\e910";
+}
+.icon-digitalocean:before {
+  content: "\e911";
+}
+.icon-mysql:before {
+  content: "\e912";
+}
+.icon-dynatrace:before {
+  content: "\e913";
+}
+.icon-material-ui:before {
+  content: "\e914";
+}
+.icon-microsoftazure:before {
+  content: "\e915";
+}
+.icon-webpack:before {
+  content: "\e916";
+}
+.icon-wireshark:before {
+  content: "\e917";
+}
+.icon-roundcube:before {
+  content: "\e918";
+}
+.icon-sqlite:before {
+  content: "\e919";
+}
+.icon-cloudbees:before {
+  content: "\e91a";
+}
+.icon-electron:before {
+  content: "\e91b";
+}
+.icon-travisci:before {
+  content: "\e91c";
+}
+.icon-netlify:before {
+  content: "\e91d";
+}
+.icon-gitkraken:before {
+  content: "\e91e";
+}
+.icon-puppeteer:before {
+  content: "\e91f";
+}
+.icon-androidstudio:before {
+  content: "\e920";
+}
+.icon-cucumber:before {
+  content: "\e921";
+}
+.icon-jfrog:before {
+  content: "\e922";
+}
+.icon-thymeleaf:before {
+  content: "\e923";
+}
+.icon-mongodb:before {
+  content: "\e924";
+}
+.icon-anaconda:before {
+  content: "\e925";
+}
+.icon-spring:before {
+  content: "\e926";
+}
+.icon-springboot:before {
+  content: "\e927";
+}
+.icon-swagger:before {
+  content: "\e928";
+}
+.icon-firebase:before {
+  content: "\e929";
+}
+.icon-grafana:before {
+  content: "\e92a";
+}
+.icon-ocaml:before {
+  content: "\e92b";
+}
+.icon-blender:before {
+  content: "\e92c";
+}
+.icon-sonarcloud:before {
+  content: "\e92d";
+}
+.icon-microsoftoffice:before {
+  content: "\e92e";
+}
+.icon-postman:before {
+  content: "\e92f";
+}
+.icon-oracle:before {
+  content: "\e930";
+}
+.icon-redhatopenshift:before {
+  content: "\e931";
+}
+.icon-adobecreativecloud:before {
+  content: "\e932";
+}
+.icon-sonarlint:before {
+  content: "\e933";
+}
+.icon-chart-dot-js:before {
+  content: "\e934";
+}
+.icon-jasmine:before {
+  content: "\e935";
+}

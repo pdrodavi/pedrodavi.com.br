@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: *
+Disallow:
+
+Sitemap: https://pedrodavi.com.br/sitemap.xml

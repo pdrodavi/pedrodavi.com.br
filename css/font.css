@@ -1,0 +1,23 @@
+.font-icon {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.font-badge {
+    color: #59666c;
+    font-size: 3.0em;
+}
+
+.font-wpp {
+    color: #2c2c2c;
+    font-size: 1.0em;
+}
+
+#backtop {
+	position:fixed;
+	bottom: 20px;
+	right: 20px;
+    color: #5E5E5E;
+    font-size: 2.5em;
+    display:none;
+}
